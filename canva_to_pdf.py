@@ -7,7 +7,7 @@ height=700
 
 
 # report lab create canvas object
-c=screen.Canvas("generated.pdf",pagesize=(width,height))
+c = screen.Canvas("generated.pdf",pagesize=(width,height))
 
 
 
@@ -18,6 +18,7 @@ def exportAsPdf():
     yList = [0,100,200,300,400,500,600,700]
     c.grid(xList,yList)
     c.setFont("Helvetica",8)
+    c.setTitle("Report")
     c.save()
 
 
