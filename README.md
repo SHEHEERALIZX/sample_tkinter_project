@@ -1,6 +1,13 @@
 # sample_tkinter_project
 
 ## Get Started
+
+```bash
+$ git clone https://github.com/SHEHEERALIZX/sample_tkinter_project
+```
+
+## Install dependencies
+
 ```bash
 $ bash requirement.sh
 ```
@@ -15,6 +22,5 @@ $ python3 canva_to_pdf.py
 $ python canva_to_pdf.py
 ```
 
-
-***Make sure neccessary dependencies installed properly inorder to run***
+ Make sure neccessary dependencies installed properly inorder to run
 
